@@ -1,0 +1,13 @@
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\Bin\Debug\ApplicationIcon.png
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\Bin\Debug\Background.png
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\Bin\Debug\MegaStarzWP7.dll
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\Bin\Debug\MegaStarzWP7.pdb
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\Bin\Debug\AppManifest.xaml
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\Bin\Debug\MegaStarzWP7.xap
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\App.g.i.cs
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\MegaStarzWP7.g.resources
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\MegaStarzWP7.dll
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\MegaStarzWP7.pdb
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\XapCacheFile.xml
+C:\Workspaces\MegaStarz\MegaStarzWP7\MegaStarzWP7\obj\Debug\Views\MainPage.g.i.cs

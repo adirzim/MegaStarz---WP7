@@ -11,12 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace MegaStarzWP7
+namespace MegaStarzWP7.Views
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class KaraokePage : PhoneApplicationPage
     {
-        // Constructor
-        public MainPage()
+        public KaraokePage()
         {
             InitializeComponent();
         }

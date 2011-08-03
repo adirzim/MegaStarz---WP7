@@ -7,8 +7,49 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:AppManifest.xml" caret="0" fromTop="0" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/f:App.xaml" caret="842" fromTop="18" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml" caret="2428" fromTop="44" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/f:App.xaml.cs" caret="0" fromTop="0" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="364" fromTop="15" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:WMAppManifest.xml" caret="1174" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="448" fromTop="16" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="529" fromTop="26" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="372" fromTop="15" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1428" fromTop="14" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2840" fromTop="26" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="28" fromTop="0" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="896" fromTop="25" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="572" fromTop="10" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="651" fromTop="14" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2620" fromTop="28" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1397" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1585" fromTop="27" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1318" fromTop="16" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="839" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="949" fromTop="26" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1024" fromTop="22" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1153" fromTop="28" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1788" fromTop="23" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2428" fromTop="36" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2182" fromTop="23" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2104" fromTop="25" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2378" fromTop="36" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1706" fromTop="14" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1993" fromTop="25" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="0" fromTop="0" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="439" fromTop="18" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="283" fromTop="10" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="154" fromTop="10" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="459" fromTop="17" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="485" fromTop="24" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="860" fromTop="26" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="993" fromTop="28" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +62,24 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="0" />
+      <Item value="MegaStarzWP7" priority="0" />
+      <Item value="Views" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="PropertyChangedEventArgs" priority="0" />
+      <Item value="prop" priority="1" />
+      <Item value="PropertyChangedEventArgs`0" priority="1" />
+      <Item value="public" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="Songs" priority="0" />
+      <Item value="ObservableCollection&lt;SongModel&gt;" priority="0" />
+      <Item value="songs" priority="0" />
+      <Item value="SongModel`0" priority="0" />
+      <Item value="artist" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="i" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
