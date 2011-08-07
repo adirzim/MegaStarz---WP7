@@ -44,7 +44,22 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-    	<Button x:Name="recBtn" Content="Rec" Margin="0" Grid.Row="2" VerticalAlignment="Center" d:LayoutOverrides="Width" HorizontalAlignment="Center" BorderBrush="Black" Foreground="Black" Style="{StaticResource RecButtomStyle}"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="0" Margin="12,0,12,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="tbBuffering" Grid.Row="0" />
+                <MediaElement AutoPlay="False" x:Name="meVideo" Source="http://mschannel9.vo.msecnd.net/o9/mix/09/wmv/key01.wmv" Grid.Row="1"/>
+                <Slider x:Name="sPosition" Grid.Row="2"/>
+            </Grid>
+        </Grid>
+
+        <Button x:Name="recBtn" Content="Rec" Margin="0" Grid.Row="2" VerticalAlignment="Center" d:LayoutOverrides="Width" HorizontalAlignment="Center" BorderBrush="Black" Foreground="Black" Style="{StaticResource RecButtomStyle}"/>
     	<ProgressBar Height="10" Margin="30" Grid.Row="3" VerticalAlignment="Center" Value="60"/>
 
         <!--TitlePanel contains the name of the application and page title-->

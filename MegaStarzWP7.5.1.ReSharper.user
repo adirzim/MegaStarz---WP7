@@ -13,21 +13,12 @@
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml" caret="2428" fromTop="44" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/f:App.xaml.cs" caret="0" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="364" fromTop="15" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:WMAppManifest.xml" caret="1174" fromTop="20" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="448" fromTop="16" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="529" fromTop="17" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="894" fromTop="34" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="402" fromTop="14" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="284" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="372" fromTop="15" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1428" fromTop="14" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2840" fromTop="26" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="28" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="896" fromTop="25" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="572" fromTop="10" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="651" fromTop="14" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2620" fromTop="28" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1397" fromTop="20" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1585" fromTop="27" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1318" fromTop="16" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="839" fromTop="20" />
@@ -42,13 +33,22 @@
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1706" fromTop="14" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1993" fromTop="25" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="0" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="439" fromTop="18" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="283" fromTop="10" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1235" fromTop="18" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="154" fromTop="10" />
       <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="459" fromTop="17" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="485" fromTop="24" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="860" fromTop="26" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="993" fromTop="28" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1281" fromTop="24" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1656" fromTop="26" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1789" fromTop="28" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1437" fromTop="27" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="659" fromTop="27" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="415" fromTop="16" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="2050" fromTop="32" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="337" fromTop="12" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1084" fromTop="39" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="727" fromTop="24" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="820" fromTop="22" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1034" fromTop="29" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="402" fromTop="14" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -80,6 +80,7 @@
       <Item value="artist" priority="0" />
       <Item value="for" priority="0" />
       <Item value="i" priority="2" />
+      <Item value="DataContext" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

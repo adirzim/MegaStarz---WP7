@@ -10,6 +10,40 @@ namespace MegaStarzWP7.ViewModels
         #region Properties
 
         private ObservableCollection<SongModel> songs;
+        public ObservableCollection<SongModel> Songs
+        {
+            get
+            {
+                return songs;
+            }
+            set
+            {
+                if (value != songs)
+                {
+                    songs = value;
+                    NotifyPropertyChanged("Songs");
+                }
+            }
+        }
+
+
+        private SongModel selectedSongs;
+        public SongModel SelectedSongs
+        {
+            get
+            {
+                return selectedSongs;
+            }
+            set
+            {
+                if (value != selectedSongs)
+                {
+                    selectedSongs = value;
+                    NotifyPropertyChanged("SelectedSongs");
+                }
+            }
+        }
+
 
         #endregion
 
@@ -18,6 +52,7 @@ namespace MegaStarzWP7.ViewModels
         public SongsViewModel()
         {
             songs = new ObservableCollection<SongModel>();
+            LoadData();
         }
 
         #endregion
@@ -50,7 +85,7 @@ namespace MegaStarzWP7.ViewModels
         #region Implementation of INotifyPropertyChanged
 
         public event PropertyChangedEventHandler PropertyChanged;
-        public void InvokePropertyChanged(string property)
+        public void NotifyPropertyChanged(string property)
         {
             PropertyChangedEventHandler handler = PropertyChanged;
             if (handler != null) handler(this, new PropertyChangedEventArgs(property));
