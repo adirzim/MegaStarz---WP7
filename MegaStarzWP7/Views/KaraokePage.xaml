@@ -12,32 +12,25 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
     shell:SystemTray.IsVisible="True">
-	<phone:PhoneApplicationPage.Resources>
-		<ImageSource x:Key="RecordButtonImage">file:///C:/Workspaces/MegaStarz/MegaStarzWP7/MegaStarzWP7/Graphics/rec.png</ImageSource>
-		<Style x:Key="RecButtomStyle" TargetType="Button">
-			<Setter Property="Background" Value="Transparent"/>
-			<Setter Property="BorderBrush" Value="{StaticResource PhoneForegroundBrush}"/>
-			<Setter Property="Foreground" Value="{StaticResource PhoneForegroundBrush}"/>
-			<Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
-			<Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilySemiBold}"/>
-			<Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
-			<Setter Property="Padding" Value="10,3,10,5"/>
-			<Setter Property="Template">
-				<Setter.Value>
-					<ControlTemplate TargetType="Button">
-						<Grid Height="100" Width="100">
-							<Grid.Background>
-								<ImageBrush Stretch="Fill" ImageSource="{StaticResource RecordButtonImage}"/>
-							</Grid.Background>
-						</Grid>
-					</ControlTemplate>
-				</Setter.Value>
-			</Setter>
-		</Style>
+
+    <!--    Resources   -->
+    <phone:PhoneApplicationPage.Resources>
+        
+
+        <!--    Templates   -->
+        <ControlTemplate x:Name="buttonTemplate" TargetType="Button">
+            <Grid Height="100" Width="100">
+                <Grid.Background>
+                    <ImageBrush x:Name="btnImage" Stretch="Fill" ImageSource="..\Graphics\rec.png"/>
+                </Grid.Background>
+            </Grid>
+        </ControlTemplate>
+        
 	</phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="White" UseLayoutRounding="True">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="0.5*"/>
             <RowDefinition Height="0.5*"/>
@@ -45,38 +38,11 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="0" Margin="12,0,12,0">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <TextBlock x:Name="tbBuffering" Grid.Row="0" />
-                <MediaElement AutoPlay="False" x:Name="meVideo" Source="http://mschannel9.vo.msecnd.net/o9/mix/09/wmv/key01.wmv" Grid.Row="1"/>
-                <Slider x:Name="sPosition" Grid.Row="2"/>
-            </Grid>
-        </Grid>
-
-        <Button x:Name="recBtn" Content="Rec" Margin="0" Grid.Row="2" VerticalAlignment="Center" d:LayoutOverrides="Width" HorizontalAlignment="Center" BorderBrush="Black" Foreground="Black" Style="{StaticResource RecButtomStyle}"/>
+        <MediaElement AutoPlay="False" x:Name="videoPlayer" Source="..\Videos\Paparazzi.wmv" Grid.Row="0"/>
+        <Rectangle x:Name="CameraPreview" Grid.Row="1"/>
+        <Button x:Name="button" Content="Rec" Margin="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Template="{StaticResource buttonTemplate}" Click="OnButtonClick" />
     	<ProgressBar Height="10" Margin="30" Grid.Row="3" VerticalAlignment="Center" Value="60"/>
 
-        <!--TitlePanel contains the name of the application and page title-->
-
-        <!--ContentPanel - place additional content here-->
     </Grid>
  
-    <!--Sample code showing usage of ApplicationBar-->
-    <!--<phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
-            <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
-                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
-            </shell:ApplicationBar.MenuItems>
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>-->
-
 </phone:PhoneApplicationPage>

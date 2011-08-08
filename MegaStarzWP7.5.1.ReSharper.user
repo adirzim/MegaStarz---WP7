@@ -8,47 +8,43 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:AppManifest.xml" caret="0" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/f:App.xaml" caret="842" fromTop="18" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml" caret="2428" fromTop="44" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/f:App.xaml.cs" caret="0" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Properties/f:WMAppManifest.xml" caret="1174" fromTop="20" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="894" fromTop="34" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="402" fromTop="14" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="284" fromTop="11" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/f:App.xaml.cs" caret="4080" fromTop="97" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1746" fromTop="36" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="678" fromTop="21" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="131" fromTop="4" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1671" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1585" fromTop="27" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1318" fromTop="16" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="839" fromTop="20" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="949" fromTop="26" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1024" fromTop="22" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1153" fromTop="28" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1788" fromTop="23" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2428" fromTop="36" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2182" fromTop="23" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2104" fromTop="25" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="2378" fromTop="36" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1706" fromTop="14" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="1993" fromTop="25" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="0" fromTop="0" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1235" fromTop="18" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="154" fromTop="10" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Models/f:SongModel.cs" caret="459" fromTop="17" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1281" fromTop="24" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1656" fromTop="26" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1789" fromTop="28" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1437" fromTop="27" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="659" fromTop="27" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="415" fromTop="16" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="2050" fromTop="32" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="337" fromTop="12" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1084" fromTop="39" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="727" fromTop="24" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="820" fromTop="22" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1034" fromTop="29" />
-      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="402" fromTop="14" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1261" fromTop="27" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:ViewModels/f:SongsViewModel.cs" caret="1799" fromTop="37" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="0" fromTop="0" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="45" fromTop="1" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:SongsListPage.xaml.cs" caret="629" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="259" fromTop="10" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1852" fromTop="24" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="2234" fromTop="19" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="2604" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="343" fromTop="14" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="3647" fromTop="37" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="2738" fromTop="26" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1310" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="957" fromTop="18" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1310" fromTop="36" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1310" fromTop="39" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="2061" fromTop="40" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="131" fromTop="4" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1194" fromTop="25" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1310" fromTop="17" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="1161" fromTop="6" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="2316" fromTop="35" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml" caret="2196" fromTop="30" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="1425" fromTop="20" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="1183" fromTop="19" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="1036" fromTop="19" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="1089" fromTop="21" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="654" fromTop="13" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="468" fromTop="8" />
+      <File id="C7073781-0E18-420A-B26F-FE96B562E695/d:Views/f:KaraokePage.xaml.cs" caret="617" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -65,14 +61,14 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="using" priority="0" />
-      <Item value="MegaStarzWP7" priority="0" />
+      <Item value="MegaStarzWP7" priority="1" />
       <Item value="Views" priority="0" />
       <Item value="string" priority="2" />
       <Item value="PropertyChangedEventArgs" priority="0" />
       <Item value="prop" priority="1" />
       <Item value="PropertyChangedEventArgs`0" priority="1" />
       <Item value="public" priority="0" />
-      <Item value="private" priority="0" />
+      <Item value="private" priority="1" />
       <Item value="Songs" priority="0" />
       <Item value="ObservableCollection&lt;SongModel&gt;" priority="0" />
       <Item value="songs" priority="0" />
@@ -81,6 +77,56 @@
       <Item value="for" priority="0" />
       <Item value="i" priority="2" />
       <Item value="DataContext" priority="0" />
+      <Item value="LoadData`0" priority="0" />
+      <Item value="NavigationService" priority="0" />
+      <Item value="Uri" priority="0" />
+      <Item value="uriKind" priority="0" />
+      <Item value="UriKind`0" priority="0" />
+      <Item value="recBtn" priority="0" />
+      <Item value="buttonTemplate" priority="2" />
+      <Item value="button" priority="2" />
+      <Item value="new" priority="0" />
+      <Item value="TemplateBindingExpression`0" priority="0" />
+      <Item value="if" priority="3" />
+      <Item value="videoPlayer" priority="6" />
+      <Item value="MediaElementState`0" priority="2" />
+      <Item value="else" priority="2" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="e" priority="0" />
+      <Item value="false" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Navigation.NavigationService">
+      <Item value="BackStack" priority="0" />
+      <Item value="Navigate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UriKind">
+      <Item value="Relative" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JetBrains.ReSharper.Feature.Services.Xaml.CodeCompletion.XamlBasicCompletionContext">
+      <Item value="ctx" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="Template" priority="0" />
+      <Item value="IsEnabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.MediaElement">
+      <Item value="Play`0" priority="1" />
+      <Item value="CurrentState" priority="2" />
+      <Item value="Stop`0" priority="0" />
+      <Item value="MediaOpened" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.MediaElementState">
+      <Item value="Stopped" priority="0" />
+      <Item value="Paused" priority="0" />
+      <Item value="Playing" priority="0" />
+      <Item value="Closed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.RoutedEventArgs">
+      <Item value="ToString`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

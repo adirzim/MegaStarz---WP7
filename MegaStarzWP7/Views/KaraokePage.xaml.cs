@@ -13,6 +13,10 @@ namespace MegaStarzWP7.Views
 //        private TimeSpan duration;
 //        private DispatcherTimer timer;
 
+        private FileSink m_sink;
+        private CaptureSource m_captureSource;
+        private string m_capturedFileName = "myVideo.mp4";
+
         #endregion
 
         #region CTOR
@@ -20,63 +24,63 @@ namespace MegaStarzWP7.Views
         public KaraokePage()
         {
             InitializeComponent();
+            videoPlayer.Volume = 1;
         }
 
         #endregion
 
-//        void timer_Tick(object sender, EventArgs e)
-//        {
-//            if (meVideo.CurrentState == MediaElementState.Playing)
-//            {
-//                double currentPostition = meVideo.Position.TotalMilliseconds;
-//                double progressPosition = (currentPostition * 100) / duration.TotalMilliseconds;
-//                sPosition.Value = progressPosition;
-//            }
-//        }
-//
-//        void meVideo_MediaEnded(object sender, RoutedEventArgs e)
-//        {
-//            meVideo.Position = TimeSpan.Zero;
-//            sPosition.Value = 0;
-//            btnPlay.IconUri = new Uri("/Images/appbar.transport.play.rest.png", UriKind.Relative);
-//        }
-//
-//        void meVideo_MediaOpened(object sender, RoutedEventArgs e)
-//        {
-//            duration = meVideo.NaturalDuration.TimeSpan;
-//        }
-//
-//        void meVideo_CurrentStateChanged(object sender, RoutedEventArgs e)
-//        {
-//            if (meVideo.CurrentState == MediaElementState.Playing)
-//                btnPlay.IconUri = new Uri("/Images/appbar.transport.pause.rest.png", UriKind.Relative);
-//            else
-//                btnPlay.IconUri = new Uri("/Images/appbar.transport.play.rest.png", UriKind.Relative);
-//        }
-//
-//        void meVideo_BufferingProgressChanged(object sender, RoutedEventArgs e)
-//        {
-//            tbBuffering.Text = string.Format("Buffering...{0:P}", meVideo.BufferingProgress);
-//        }
-//
-//        private void btnPlay_Click(object sender, EventArgs e)
-//        {
-//            if (meVideo.CurrentState == MediaElementState.Playing)
-//            {
-//                meVideo.Pause();
-//                timer.Stop();
-//            }
-//            else
-//            {
-//                timer.Start();
-//                meVideo.Play();
-//            }
-//        }
-//
-//        private void btnStop_Click(object sender, EventArgs e)
-//        {
-//            meVideo.Stop();
-//        }
+
+        private void OnButtonClick(object sender, RoutedEventArgs e)
+        {
+            if ((videoPlayer.CurrentState == MediaElementState.Stopped) || (videoPlayer.CurrentState == MediaElementState.Paused)
+                || (videoPlayer.CurrentState == MediaElementState.Opening))
+            {
+                StartRecordig();
+                videoPlayer.Play();
+//                try
+//                {
+//                    StartRecordig();
+//                    videoPlayer.Play();                    
+//                }
+//                catch (Exception exception)
+//                {
+//                    MessageBox.Show(exception.Message);
+//                }
+            }else if (videoPlayer.CurrentState == MediaElementState.Playing)
+            {
+                videoPlayer.Stop();
+                m_captureSource.Stop();
+            }
+            else
+            {
+                MessageBox.Show("Undeclared Video Player State");
+            }
+        }
+        
+        #region Recording Method
+
+        private void StartRecordig()
+        {
+            if (m_captureSource == null)
+            {
+                m_captureSource = new CaptureSource();
+                m_captureSource.VideoCaptureDevice = CaptureDeviceConfiguration.GetDefaultVideoCaptureDevice();
+                m_captureSource.AudioCaptureDevice = CaptureDeviceConfiguration.GetDefaultAudioCaptureDevice();
+
+                m_sink = new FileSink();
+                m_sink.CaptureSource = m_captureSource;
+                m_sink.IsolatedStorageFileName = m_capturedFileName;
+            }
+
+            VideoBrush brush = new VideoBrush();
+            brush.SetSource(m_captureSource);
+            CameraPreview.Fill = brush;
+
+            m_captureSource.Start();
+
+        }
+
+        #endregion
 
     }
 }
